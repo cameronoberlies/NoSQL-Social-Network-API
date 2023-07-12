@@ -1,5 +1,6 @@
 const { Schema, model } = require("mongoose");
 const moment = require('moment');
+const reactionSchema = require('./Reaction');
 
 const thoughtSchema = new Schema(
   {
@@ -29,9 +30,9 @@ thoughtSchema.virtual("reactionCount").get(function () {
   return this.reactions.length;
 });
 thoughtSchema.virtual("formattedTimeStamp").get(function () {
-    return moment(this.timestamp).format('YYYY-MM-DD HH:mm:ss');
+    return moment(this.timestamp).format('MMMM Do YYYY, h:mm:ss a');
 })
 
-const Thought = mongoose.model("Thought", thoughtSchema);
+const Thought = model("Thought", thoughtSchema);
 
 module.exports = Thought;
