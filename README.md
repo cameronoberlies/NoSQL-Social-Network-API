@@ -1,7 +1,9 @@
 #Social Network API
+
 This project is an API for a social network web application where users can share their thoughts, react to friends' thoughts, and manage their friend list. The API is built using Express.js for routing, MongoDB as the database, and Mongoose as the ODM. It provides endpoints for various functionalities such as user management, thought sharing, reactions, and friend operations.
 
 #Technologies Used
+
 Express.js: A minimal and flexible Node.js web application framework.
 MongoDB: A document-oriented NoSQL database for storing data.
 Mongoose: An ODM (Object Data Modeling) library for MongoDB and Node.js.
@@ -14,10 +16,12 @@ Moment.js Date library.
 3.Configure the MongoDB connection by providing the appropriate URL in the project's configuration files.
 
 #Usage
+
 1.Start the server running 'npm start'
 2.Access the API endpoints through the appropriate routes
 
 #API Endpoints
+
 The following API endpoints are available:
 
 ##User Routes:
