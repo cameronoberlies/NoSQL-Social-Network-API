@@ -27,25 +27,37 @@ The following API endpoints are available:
 ###User Routes:
 
 GET /api/users: Get all users.
+
 GET /api/users/:userId: Get a single user by their userId and populate their thoughts and friends.
+
 POST /api/users: Create a new user.
+
 PUT /api/users/:userId: Update a user by their userId.
+
 DELETE /api/users/:userId: Delete a user by their userId.
 
 ###Thought Routes:
 
 GET /api/thoughts: Get all thoughts.
+
 GET /api/thoughts/:thoughtId: Get a single thought by its thoughtId.
+
 POST /api/thoughts: Create a new thought.
+
 PUT /api/thoughts/:thoughtId: Update a thought by its thoughtId.
+
 DELETE /api/thoughts/:thoughtId: Delete a thought by its thoughtId.
+
 Reaction Routes:
 
 POST /api/thoughts/:thoughtId/reactions: Add a reaction to a thought.
+
 DELETE /api/thoughts/:thoughtId/reactions/:reactionId: Remove a reaction from a thought.
+
 Friend Routes:
 
 POST /api/users/:userId/friends/:friendId: Add a friend to a user.
+
 DELETE /api/users/:userId/friends/:friendId: Remove a friend from a user.
 
 ##Links to Video Walkthrough
