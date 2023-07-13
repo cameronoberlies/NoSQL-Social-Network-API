@@ -42,13 +42,13 @@ PUT /api/thoughts/:thoughtId: Update a thought by its thoughtId.
 
 DELETE /api/thoughts/:thoughtId: Delete a thought by its thoughtId.
 
-Reaction Routes:
+###Reaction Routes:
 
 POST /api/thoughts/:thoughtId/reactions: Add a reaction to a thought.
 
 DELETE /api/thoughts/:thoughtId/reactions/:reactionId: Remove a reaction from a thought.
 
-Friend Routes:
+###Friend Routes:
 
 POST /api/users/:userId/friends/:friendId: Add a friend to a user.
 
