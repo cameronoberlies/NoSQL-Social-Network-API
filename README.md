@@ -51,4 +51,5 @@ DELETE /api/users/:userId/friends/:friendId: Remove a friend from a user.
 ##Links to Video Walkthrough
 
 (Part 1) https://drive.google.com/file/d/1_dNKhq1HwG6MgQbiUyJC1MgHwy_PGxnF/view?usp=sharing
+
 (Part 2) https://drive.google.com/file/d/1CgvOyojeFB9yvTa0hvxyuWRs1XlbOqhO/view?usp=sharing
